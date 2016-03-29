@@ -20,6 +20,7 @@ module.exports = {
   includedCommands: function() {
     return {
       'fastboot':       require('./lib/commands/fastboot'),
+      'fastboot:check': require('./lib/commands/fastboot-check'),
 
       /* fastboot:build is deprecated and will be removed in a future version */
       'fastboot:build': require('./lib/commands/fastboot-build')
